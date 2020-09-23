@@ -2,10 +2,10 @@
     "token": "",
     "antiSpam": true,
     "allowSpam": [],
-    "captcha": false,
+    "captcha": true,
     "captchaChannel": 0,
     "logChannel": 0,
     "temporaryRole": 0,
-    "roleGivenAfterCaptcha": false,
+    "roleGivenAfterCaptcha": true,
     "minAccountDate": 86400
 }
