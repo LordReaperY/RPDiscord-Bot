@@ -17,7 +17,7 @@ class Greetings(commands.Cog):
         self.bot = bot
         self._last_member = None
 
-bot = commands.Bot("?")
+bot = commands.Bot("r!")
 # bot = commands.when_mentioned_or("?")
 
 # HELP
