@@ -29,19 +29,19 @@ This Discord Bot protect your Discord server with many functions.
 
 ## Logs
 
-![](https://github.com/Darkempire78/Raid-Protect-Discord-Bot/blob/master/Capture2.PNG)
+![](https://github.com/LordReaperY/Raid-Protect-Discord-Bot/blob/master/Capture2.PNG)
 
 ## Commands
 
 ```
-?setup <on/off> : Set up the captcha protection.
-?settings : Display the list of settings.
-?giveroleaftercaptcha <role ID/off> : Give a role after that the user passed the captcha.
-?minaccountage <number (hours)> : set a minimum age to join the server (24 hours by default).
-?antiSpam <true/false> : Enable or disable the spam protection.
-?allowspam <#channel> (remove) :** Enable or disable the spam protection in a specific channel.
+r!setup <on/off> : Set up the captcha protection.
+r!settings : Display the list of settings.
+r!giveroleaftercaptcha <role ID/off> : Give a role after that the user passed the captcha.
+r!minaccountage <number (hours)> : set a minimum age to join the server (24 hours by default).
+r!antiSpam <true/false> : Enable or disable the spam protection.
+r!allowspam <#channel> (remove) :** Enable or disable the spam protection in a specific channel.
 
-?help : display help.
+r!help : display help.
 ```
 
 ## Contributing
@@ -53,4 +53,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-This project is under [GPLv3](https://github.com/Darkempire78/Raid-Protect-Discord-Bot/blob/master/LICENSE).
+This project is under [GPLv3](https://github.com/Darkempire7/Raid-Protect-Discord-Bot/blob/master/LICENSE).
