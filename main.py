@@ -57,4 +57,5 @@ async def on_ready():
 with open("configuration.json", "r") as config:
     data = json.load(config)
     token = data["token"]
-bot.run(token)
+bot.run(tok
+bot.run(os.getenv('token'))
