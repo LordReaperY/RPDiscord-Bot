@@ -38,7 +38,7 @@ class MinAccountAgeCog(commands.Cog, name="change min account age command"):
 
         except:
             embed = discord.Embed(title=f"**ERROR**", description=f"The minimum account age must be a number (default = 24 hours)\nFollow the example : ``{self.bot.command_prefix}minaccountage <number (hours)>``", color=0xe00000) # Red
-            embed.set_footer(text="Bot Created by Darkempire#8245")
+            embed.set_footer(text="Bot Created by LordReaper#0001")
             return await ctx.channel.send(embed=embed)
 
 # ------------------------ BOT ------------------------ #  
