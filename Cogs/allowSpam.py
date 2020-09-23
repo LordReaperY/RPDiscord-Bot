@@ -32,7 +32,7 @@ class AllowSpamCog(commands.Cog, name="allow spam command"):
 
                 if spamChannel.id in data["allowSpam"]:
                     embed = discord.Embed(title=f"**ERROR**", description=f"The channel where you want to allow to spam is already ignored by anti spam.", color=0xe00000) # Red
-                    embed.set_footer(text="Bot Created by Darkempire#8245")
+                    embed.set_footer(text="Bot Created by LordReaper#0001")
                     return await ctx.channel.send(embed=embed)
 
                 data["allowSpam"].append(spamChannel.id)
@@ -41,12 +41,12 @@ class AllowSpamCog(commands.Cog, name="allow spam command"):
                 with open("configuration.json", "w") as config:
                     config.write(newdata)
                 embed = discord.Embed(title = f"**SUCCESS**", description = f"The <#{spamChannel.id}> channel is ignored by the anti spam.", color = 0x2fa737) # Green
-                embed.set_footer(text="Bot Created by Darkempire#8245")
+                embed.set_footer(text="Bot Created by LordReaper#0001")
                 await ctx.channel.send(embed = embed)
 
             except:
                 embed = discord.Embed(title=f"**ERROR**", description=f"The channel where you want to allow to spam must be a number\nFollow the example : ``{self.bot.command_prefix}allowspam <#channel>``", color=0xe00000) # Red
-                embed.set_footer(text="Bot Created by Darkempire#8245")
+                embed.set_footer(text="Bot Created by LordReaper#0001")
                 return await ctx.channel.send(embed=embed)
         else:
             try:
@@ -60,7 +60,7 @@ class AllowSpamCog(commands.Cog, name="allow spam command"):
 
                 if not spamChannel.id in data["allowSpam"]:
                     embed = discord.Embed(title=f"**ERROR**", description=f"The channel where you want to disable the spam is already disabled.", color=0xe00000) # Red
-                    embed.set_footer(text="Bot Created by Darkempire#8245")
+                    embed.set_footer(text="Bot Created by LordReaper#0001")
                     return await ctx.channel.send(embed=embed)
 
                 data["allowSpam"].remove(spamChannel.id)
@@ -69,12 +69,12 @@ class AllowSpamCog(commands.Cog, name="allow spam command"):
                 with open("configuration.json", "w") as config:
                     config.write(newdata)
                 embed = discord.Embed(title = f"**SUCCESS**", description = f"The <#{spamChannel.id}> channel is not ignored by the anti spam.", color = 0x2fa737) # Green
-                embed.set_footer(text="Bot Created by Darkempire#8245")
+                embed.set_footer(text="Bot Created by LordReaper#0001")
                 await ctx.channel.send(embed = embed)
 
             except:
                 embed = discord.Embed(title=f"**ERROR**", description=f"The channel where you want to disable the spam must be a number\nFollow the example : ``{self.bot.command_prefix}allowspam <#channel> remove``", color=0xe00000) # Red
-                embed.set_footer(text="Bot Created by Darkempire#8245")
+                embed.set_footer(text="Bot Created by LordReaper#0001")
                 return await ctx.channel.send(embed=embed)
 
 # ------------------------ BOT ------------------------ #  
